@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textViewKeyRow"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/selector"
+        android:text="testingtesting"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+<!--android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+CheckedTextView-->
+

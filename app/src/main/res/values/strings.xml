@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Music App Draft</string>
+    <string name="bpm">BPM</string>
+    <string name="button_start">start</string>
+    <string name="button_menu">menu</string>
+    <string name="button_home">home</string>
+    <string name="button_menu_sight_list_1">Target Rhythms</string>
+    <string name="button_menu_sight_list_2">Include Music</string>
+    <string name="key_menu">Select Key Signatures</string>
+    <string name="time_menu">Select Time Signatures</string>
+    <string name="button_beginner">beginner</string>
+    <string name="button_intermediate">intermediate</string>
+    <string name="button_advanced">advanced</string>
+    <string name="paused">paused</string>
+    <string name="metronome">metronome</string>
+    <string name="rotate">rotate</string>
+    <string name="pause">| |</string>
+    <string name="play">►</string>
+    <string name="ok">ok</string>
+    <string name="nothing_selected">nothing selected</string>
+    <string name="fast">fast</string>
+    <string name="slow">slow</string>
+    <string name="rotation">rotation:</string>
+</resources>
