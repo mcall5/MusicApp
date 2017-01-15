@@ -23,16 +23,12 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textAllCaps="true"
-        android:layout_margin="4dp"
-        android:background="#e8eaf6">
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
-            android:textAllCaps="true"
             android:layout_margin="4dp"
             android:text="@string/button_start"
             android:onClick="setLevelLib"/>

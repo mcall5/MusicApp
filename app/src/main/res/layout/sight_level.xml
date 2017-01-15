@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/colorPrimaryDark">
+        android:layout_height="match_parent" android:background="@color/colorPrimaryDark">
 
         <Button
             android:layout_width="match_parent"
@@ -13,7 +9,7 @@
             android:layout_weight="3"
             android:text="@string/button_beginner"
             android:textAllCaps="true"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_margin="8dp"
             android:onClick="sightPracticeBeg"/>
         <Button
@@ -22,7 +18,7 @@
             android:layout_weight="3"
             android:text="@string/button_intermediate"
             android:textAllCaps="true"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:onClick="sightPracticeInt"/>
@@ -32,27 +28,21 @@
             android:layout_weight="3"
             android:text="@string/button_advanced"
             android:textAllCaps="true"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_margin="8dp"
             android:onClick="sightPracticeAdv"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_weight="2"
-            android:layout_height="0dp"
-            android:background="#e8eaf6"
->
-
+            android:layout_height="56dp"
+            android:background="@color/colorPrimary">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
-                android:text="@string/button_menu"
-                android:textAllCaps="true"
                 android:layout_margin="4dp"
+                android:text="@string/button_menu"
                 android:onClick="sightMainMenu"/>
-
         </RelativeLayout>
 
     </LinearLayout>
-</LinearLayout>
