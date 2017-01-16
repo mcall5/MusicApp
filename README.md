@@ -74,3 +74,67 @@ Pause button:
 Description: Pause button to pause the session without leaving the screen.
 
 Progress:  The pause button can pause the timer, auto-rotation and metronome & disable their buttons.  All the current settings are saved and restored properly after unpausing.  A large red “PAUSED” textView displays so the user can easily tell when the screen has been paused.
+
+###Other app screen pages:
+
+* Start Screen
+
+* Menu Screen
+
+* Key Signature Settings Screen
+
+* Time Signature Settings
+
+* Level Screen
+
+####Startup Screen
+
+![musicstart](https://cloud.githubusercontent.com/assets/25094066/22001914/cf7b671e-dbfc-11e6-98d5-59c0a126b4f1.png)
+
+Description: Allows the user to start a practice session or go to the settings menu.
+
+Progress: Simple appearance with working buttons.
+
+####Menu Screen:
+
+![musicmenu](https://cloud.githubusercontent.com/assets/25094066/22001904/befec17e-dbfc-11e6-89bf-6eeccaf8d82e.png)
+
+Description: Allows the user to go into settings for key signatures and time signatures to specify which music clips to display on the practice page
+
+Progress: Clean appearance with working buttons.
+
+Working on: Additional setting options for increased user customization.
+
+####Key Signature Settings:
+
+![musickeymenu](https://cloud.githubusercontent.com/assets/25094066/22001896/b68713c0-dbfc-11e6-8f98-24fb8a0ab64c.png)
+
+Description: Allows the user to select and unselect key signatures to include on the practice page.  Includes all of the major and minor key signatures. 
+
+Progress: ListView  buttons display appropriate highlight color on clicks and connect to arrayList to update music display on the practice page.  
+
+Working on: Saving previous settings when returning to the page so the buttons do not reset to default every time the user returns to make a change.  Providing image icons for each key signature to make page visually easier to skim.  Adding a “select all” and “unselect all” option.  Adding a toast pop-up to prevent the user from leaving the page with no selected items.
+
+Bugs: The app crashes on the practice page if the user leaves the settings page with no selected items.
+
+####Time Signature Settings
+
+![musictimemenu](https://cloud.githubusercontent.com/assets/25094066/22001919/d5dd022a-dbfc-11e6-8d0a-6ecec956b16b.png)
+
+Description: Allows the user to select and unselect time signatures to include on the practice page.
+
+Progress: Buttons display appropriate highlight color on clicks and connect to arrayList to update music display on the practice page.  Previous settings save properly when the user returns to the page.
+
+Working on: Providing more time signatures to choose from.
+
+####Level Screen
+
+![musiclevel](https://cloud.githubusercontent.com/assets/25094066/22001901/bb07dd12-dbfc-11e6-8e34-2f6bd79cb674.png)
+
+Description: Allows the user to select difficulty level before entering the practice screen
+
+Progress: Clean appearance with working buttons.  Automatically pops-up everytime the user clicks to start a practice session.
+
+Working on: Make an option for the user to decide if they want to be asked the practice level with each session or to save it under their settings.
+
+
