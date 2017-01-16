@@ -8,12 +8,12 @@ This app is to help users develop their sight reading music skills. The practice
 
 ###Features
 
-*Sheet music image display
+* Sheet music image display
 
-*Auto-rotation
+* Auto-rotation
 
-*Metronome
+* Metronome
 
-*Session timer
+* Session timer
 
-*Pause button
+* Pause button
