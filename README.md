@@ -7,8 +7,13 @@ This app is to help users develop their sight reading music skills. The practice
 ![musicpractice](https://cloud.githubusercontent.com/assets/25094066/22000576/c500a25c-dbf4-11e6-99ed-5bcf7c1876ae.png)
 
 ###Features
-Sheet music image display
-Auto-rotation
-Metronome
-Session timer
-Pause button
+
+*Sheet music image display
+
+*Auto-rotation
+
+*Metronome
+
+*Session timer
+
+*Pause button
