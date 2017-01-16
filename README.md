@@ -47,13 +47,30 @@ Bugs: Rotation countdown skips over when speed buttons are clicked many times in
 
 ![musicmetronome 2](https://cloud.githubusercontent.com/assets/25094066/22001230/7698aac0-dbf8-11e6-919d-356c13c0feb0.png)
 
+Description: Metronome can switch on and play beats at varying speeds.
+
+Progress:  The metronome switch can toggle the metronome buttons visibility and play audible beats.  The speed buttons can change the BPM and accurately display the current BPM.
+
+Working on:  Speeding up the buttons to update quickly while keeping the beats playing properly. 
+
+Bugs: Metronome beats glitch into overlapping rhythms when buttons are clicked many times in quick succession. 
+
 ####Session timer
 
 ![musicpractice 4](https://cloud.githubusercontent.com/assets/25094066/22001246/9468a294-dbf8-11e6-8301-ee7538e16ee7.png)
 
+Description: Timer to track total practice running time.
+
+Progress:  The timer displays ongoing practice time in hours minutes and seconds.  The timer runs continuously while the user is actively practicing and is able to pick back up every time the user comes back on the screen from the menu without counting the time off screen.
+
+Working on:  Saving daily statistics to log practice times.
 
 #### Pause button
 
 ![musicpracticepause](https://cloud.githubusercontent.com/assets/25094066/22001263/a6886a72-dbf8-11e6-921b-b8824652b022.png)
 
+Pause button:
 
+Description: Pause button to pause the session without leaving the screen.
+
+Progress:  The pause button can pause the timer, auto-rotation and metronome & disable their buttons.  All the current settings are saved and restored properly after unpausing.  A large red “PAUSED” textView displays so the user can easily tell when the screen has been paused.
