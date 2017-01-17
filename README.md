@@ -31,8 +31,7 @@ Working on: Adding sheet music clips for the imageView to display.
 
 ####Auto-rotation
 
-![musicpractice 3](https://cloud.githubusercontent.com/assets/25094066/22001243/87359974-dbf8-11e6-8980-683141fd79bb.png)
-![musicrotate 2](https://cloud.githubusercontent.com/assets/25094066/22001268/b1394978-dbf8-11e6-8808-8a93f0305eec.png)
+![musicpractice_li 3](https://cloud.githubusercontent.com/assets/25094066/22003914/2602b2b8-dc0c-11e6-9b46-daa37c4b8060.jpg)
 
 Description: The auto-rotate buttons control when the sheet music clips change.   Includes  “fast” and “slow” speeds and on/off buttons to allow the user to manually rotate.
 
@@ -45,7 +44,7 @@ Bugs: Rotation countdown skips over when speed buttons are clicked many times in
 
 ####Metronome
 
-![musicmetronome 2](https://cloud.githubusercontent.com/assets/25094066/22001230/7698aac0-dbf8-11e6-919d-356c13c0feb0.png)
+![musicpractice_li](https://cloud.githubusercontent.com/assets/25094066/22003919/2bf2ef1c-dc0c-11e6-82b3-26937c79e1ef.jpg)
 
 Description: Metronome can switch on and play beats at varying speeds.
 
@@ -57,7 +56,7 @@ Bugs: Metronome beats glitch into overlapping rhythms when buttons are clicked m
 
 ####Session timer
 
-![musicpractice 4](https://cloud.githubusercontent.com/assets/25094066/22001246/9468a294-dbf8-11e6-8301-ee7538e16ee7.png)
+![musicpractice_li 4](https://cloud.githubusercontent.com/assets/25094066/22003924/3596e55a-dc0c-11e6-8fab-74851b8e7b31.jpg)
 
 Description: Timer to track total practice running time.
 
