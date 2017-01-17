@@ -17,7 +17,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="4dp"
             android:text="@string/ok"
-            android:onClick="sightMainMenu"/>
+            android:onClick="keySigCheckout"/>
     </RelativeLayout>
 
 </LinearLayout>

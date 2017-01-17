@@ -175,6 +175,21 @@ public class MainActivity extends AppCompatActivity {
         metroBpm = defaultBpm;
     }
 
+    //onClick: Go to the sight reading Main Menu
+    public void sightMainMenu(View v) {
+        setContentView(R.layout.sight_reading_main);
+        pauseSightPractice();
+    }
+
+    //onClick: Go to the menu to select difficulty level
+    public void setLevelLib(View v) {
+        setContentView(R.layout.sight_level);
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////Key Signature Menu/////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+
     //onClick: Go to Key Signature Menu from the Key sig button in the main menu
     public void sightKeyMenu(View v) {
         setContentView(R.layout.key_sig_menu);
@@ -185,7 +200,6 @@ public class MainActivity extends AppCompatActivity {
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         final TextView textView = (TextView) findViewById(R.id.textViewKeyRow);
         adapter = new ArrayAdapter<String>(this, R.layout.key_row_layout, R.id.textViewKeyRow, keysig_array);
-        //adapter = new ArrayAdapter<String>(this, android.R.layout.key_row_layout, keysig_array);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -208,32 +222,23 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //onClick to leave the key signature menu (must have something selected)
+    public void keySigCheckout (View v){
+        if (selectedItems.size() > 0){
+            setContentView(R.layout.sight_reading_main);
+        }
+        else{
+            Toast.makeText(getApplicationContext(), R.string.nothing_selected, Toast.LENGTH_SHORT ).show();
+        }
+    }
+
     //onClick: (currently unused) button to display the selected items list
     public void showSelectedItems (View v){
         String items= "";
         for(String item:selectedItems){
             items+="-"+item+"\n";
         }
-        Toast.makeText(this, "You have selected \n"+items, Toast.LENGTH_LONG).show();
-    }
-
-    //onClick: Go to the sight reading Main Menu
-    public void sightMainMenu(View v) {
-        setContentView(R.layout.sight_reading_main);
-/*        chk1 = (CheckBox) findViewById(R.id.check_rhythm);
-        chk2 = (CheckBox) findViewById(R.id.check_key);
-        chk3 = (CheckBox) findViewById(R.id.check_style);
-        chk4 = (CheckBox) findViewById(R.id.check_timesig);
-        chk5 = (CheckBox) findViewById(R.id.check_music);
-        chk0 = (CheckBox) findViewById(R.id.check_all);
-        selectOnOff = (TextView) findViewById(R.id.select_on_off);
-        checkAllBoxes();*/
-        pauseSightPractice();
-    }
-
-    //onClick: Go to the menu to select difficulty level
-    public void setLevelLib(View v) {
-        setContentView(R.layout.sight_level);
+        Toast.makeText(this, "You have selected " + selectedItems.size() + " key signatures:\n"+items , Toast.LENGTH_LONG).show();
     }
 
     //////////////////////////////////////////////////////////////////////////////////////////////
@@ -368,7 +373,6 @@ public class MainActivity extends AppCompatActivity {
         //set level to beginner
         nameLevel = "beginner";
         libraryLevel = "Beg";
-        //    getSightNumLib();
         //go to practice page
         practiceLayout();
     }
@@ -378,7 +382,6 @@ public class MainActivity extends AppCompatActivity {
         //set level to intermediate
         nameLevel = "intermediate";
         libraryLevel = "Int";
-        //    getSightNumLib();
         //go to practice page
         practiceLayout();
     }
@@ -388,7 +391,6 @@ public class MainActivity extends AppCompatActivity {
         //set level to advanced
         nameLevel = "advanced";
         libraryLevel = "Adv";
-        //    getSightNumLib();
         //go to practice page
         practiceLayout();
     }
