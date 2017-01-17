@@ -20,7 +20,7 @@ This app is to help users develop their sight reading music skills. The practice
 
 #### Sheet music image display
 
-![musicpractice 2](https://cloud.githubusercontent.com/assets/25094066/22001210/5f3040a0-dbf8-11e6-8e40-f8f142706e08.png)
+![musicpractice_li 2](https://cloud.githubusercontent.com/assets/25094066/22003820/7bd1fcf4-dc0b-11e6-9e14-6e038350dc62.jpg)
 
 Description:  Sheet music clips rotate randomly based on the key signatures and time signatures selected.  Rotation can be done through auto-rotation or by clicking on the image.
 
