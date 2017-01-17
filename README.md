@@ -44,7 +44,7 @@ Bugs: Rotation countdown skips over when speed buttons are clicked many times in
 
 ####Metronome
 
-![musicpractice_li](https://cloud.githubusercontent.com/assets/25094066/22003919/2bf2ef1c-dc0c-11e6-82b3-26937c79e1ef.jpg)
+![musicmetronome_li](https://cloud.githubusercontent.com/assets/25094066/22003997/c7fca0ce-dc0c-11e6-9731-8116f8778695.jpg)
 
 Description: Metronome can switch on and play beats at varying speeds.
 
