@@ -4,18 +4,33 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/music_note"
+        android:label="@string/app_label"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:screenOrientation="landscape"
-            android:configChanges="orientation|keyboardHidden|screenSize">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".KeyMenuActivity"
+            android:label="@string/key_menu" />
+        <activity android:name=".TimeMenuActivity" />
+        <activity
+            android:name=".DifficultyActivity"
+            android:label="@string/difficulty_label" />
+        <activity
+            android:name=".PracticeActivity"
+            android:label="@string/practice_label"/>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/main_menu_label">
         </activity>
     </application>
 

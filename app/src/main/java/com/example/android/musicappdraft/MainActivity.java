@@ -1,11 +1,13 @@
 
 package com.example.android.musicappdraft;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
+import android.net.Uri;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.PersistableBundle;
@@ -18,6 +20,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Switch;
@@ -28,6 +31,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+
+import static android.R.id.message;
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -183,7 +189,15 @@ public class MainActivity extends AppCompatActivity {
 
     //onClick: Go to the menu to select difficulty level
     public void setLevelLib(View v) {
+        //Go to without changing activity
         setContentView(R.layout.sight_level);
+        //Create new activity
+        //Intent intent = new Intent(this, DifficultyActivity.class);
+        //Example of sending data through intent:
+        //EditText editText = (EditText) findViewById(R.id.edit_message);
+        //String message = editText.getText().toString();
+        //intent.putExtra(EXTRA_MESSAGE, message);
+        //startActivity(intent);
     }
 
     //////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Music App Draft</string>
+    <string name="app_label">Music App</string>
+    <string name="difficulty_label">Difficulty</string>
+    <string name="key_menu_label">Key Signature Menu</string>
+    <string name="main_menu_label">Main Menu</string>
+    <string name="practice_label">Practice Page</string>
+    <string name="time_menu_label">Time Signature Menu</string>
     <string name="bpm">BPM</string>
     <string name="button_start">start</string>
     <string name="button_menu">menu</string>
