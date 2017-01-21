@@ -104,17 +104,15 @@ Progress: Clean appearance with working buttons.
 
 Working on: Additional setting options for increased user customization.
 
-####Key Signature Settings:
+####Key Signature Settings
 
 ![musickeymenu](https://cloud.githubusercontent.com/assets/25094066/22001896/b68713c0-dbfc-11e6-8f98-24fb8a0ab64c.png)
 
 Description: Allows the user to select and unselect key signatures to include on the practice page.  Includes all of the major and minor key signatures. 
 
-Progress: ListView  buttons display appropriate highlight color on clicks and connect to arrayList to update music display on the practice page.  
+Progress: ListView buttons display appropriate highlight color on clicks and connect to arrayList to update music display on the practice page.  A toast error message appears when the user attempts to leave the page with no selected items.
 
-Working on: Saving previous settings when returning to the page so the buttons do not reset to default every time the user returns to make a change.  Providing image icons for each key signature to make page visually easier to skim.  Adding a “select all” and “unselect all” option.  Adding a toast pop-up to prevent the user from leaving the page with no selected items.
-
-Bugs: The app crashes on the practice page if the user leaves the settings page with no selected items.
+Working on: Saving previous settings when returning to the page so the buttons do not reset to default every time the user returns to make a change.  Providing image icons for each key signature to make page visually easier to skim.  Adding a “select all” and “unselect all” option.  
 
 ####Time Signature Settings
 
@@ -122,7 +120,7 @@ Bugs: The app crashes on the practice page if the user leaves the settings page 
 
 Description: Allows the user to select and unselect time signatures to include on the practice page.
 
-Progress: Buttons display appropriate highlight color on clicks and connect to arrayList to update music display on the practice page.  Previous settings save properly when the user returns to the page.
+Progress: Buttons display appropriate highlight color on clicks and connect to arrayList to update music display on the practice page. A toast error message appears when the user attempts to leave the page with no selected items. Previous settings save properly when the user returns to the page.
 
 Working on: Providing more time signatures to choose from.
 
